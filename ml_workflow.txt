@@ -1,0 +1,16 @@
+1.Data Collection
+Data is collected in a structured format using Python libraries like Pandas. In this assignment, the dataset contains Study_Hours, Attendance, Assignments, and Marks. This data is used for building a machine learning model.
+2.Data Cleaning
+Data cleaning involves checking for missing values, incorrect data, and duplicates. In this dataset, the data is already clean, so no major cleaning steps are required.
+3.Feature Selection
+Feature selection means choosing important input variables for prediction. Here, Study_Hours, Attendance, and Assignments are selected as features (X). Marks is selected as the target variable (y).
+4.Train-Test Split
+The dataset is divided into training and testing data. Usually, 80% is used for training and 20% for testing. Training data helps the model learn patterns, and testing data checks model performance.
+5.Model Training
+A Linear Regression model is used in this assignment. The model is trained using training data to learn the relationship between features and the target variable. After training, the model can make predictions.
+6.Testing
+Testing is performed using unseen data from the test set. The trained model predicts values for this data. The predicted values are compared with actual values to measure accuracy.
+7.Evaluation
+Evaluation helps determine how well the model performs. Metrics such as Mean Absolute Error (MAE) and R² Score are used. Better evaluation scores indicate a more accurate model.
+8.Prediction
+Prediction is the final step where the trained model is used to predict marks for new student data. The model uses learned patterns to generate estimated results.
